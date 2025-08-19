@@ -1,0 +1,10 @@
+[package]
+name = "estudos_rust"
+version = "1.0.0"
+edition = "2024"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+toml = "0.8"
+sha2 = "0.10"
+clap = { version = "4.0", features = ["derive"] }
