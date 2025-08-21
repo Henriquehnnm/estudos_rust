@@ -8,11 +8,15 @@ fn input(prompt: &str) -> String {
 }
 
 fn main() {
-    let frase: String = input("Digite uma frase:");
-    let npalavras: usize = frase.split_whitespace().count();
-    if npalavras == 1 {
-        println!("Sua frase tem {npalavras} palavra")
+    println!("== ÍMPAR OU PAR ==");
+    let input_number: String = input("Digite um numero para ver e é impar ou par:");
+    let number: i64 = input_number
+        .trim()
+        .parse()
+        .expect("Digite un número válido...");
+    if number % 2 == 0 {
+        println!("O número {number} é par!")
     } else {
-        println!("Sua frase tem {npalavras} palavras")
+        println!("O número {number} é ímpar!")
     }
 }
