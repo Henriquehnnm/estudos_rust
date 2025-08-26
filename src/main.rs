@@ -1,4 +1,4 @@
-use std::io;
+pub(crate) use std::io;
 
 fn input(prompt: &str) -> String {
     println!("{}", prompt);
