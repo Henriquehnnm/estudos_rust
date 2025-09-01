@@ -8,7 +8,10 @@ fn input(prompt: &str) -> String {
 }
 
 fn main() {
-    println!("Digite seu nome: ");
-    let nome = input("Digite:");
-    println!("Olá {nome}!")
+    println!("== PERIMETRO DE UM RETAGULO ==");
+    let comprimento = input("Digite o comprimento: ");
+    let comprimento = input("Digite o comprimento: ");
+    if  {
+        todo!();
+    }
 }

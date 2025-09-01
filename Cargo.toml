@@ -9,3 +9,5 @@ toml = "0.8"
 sha2 = "0.10"
 clap = { version = "4.0", features = ["derive"] }
 rand = "0.8.5"
+colored = "2.0"
+rpassword = "7.0"
